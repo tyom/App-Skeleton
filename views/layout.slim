@@ -1,0 +1,11 @@
+doctype html
+html(ng-app='App')
+  head
+    meta charset='utf-8'
+    title Application
+    == css :main, :media => 'screen'
+  body
+    == yield
+
+  == js :libs
+  == js :app
